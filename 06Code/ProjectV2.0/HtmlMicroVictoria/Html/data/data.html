@@ -1,0 +1,118 @@
+<Doctype html>
+    <html>
+
+    <head>
+        <title>Registration</title>
+        <style>
+            img {
+                width: auto;
+                height: auto;
+            }
+
+            table {
+                width: 80%;
+                border: 1px solid black;
+                border-collapse: collapse;
+
+            }
+
+            th {
+                background-color: rgb(181, 178, 178);
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            #registration {
+
+                width: auto;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            td {
+                padding: 5px;
+                text-align: left;
+            }
+
+            textarea {
+                resize: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <center>
+            <h1>Enter Your Data</h1>
+      
+            <form>
+                <table id="registration">
+                    <tr>
+                        <td>
+                            <label for="txtTeamName">Name and Surname:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtTeamName" name="txtTeamName" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="txtIdentification">Identification:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtIdentification" name="txtIdentification" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="txtCellPhone">Cell Phone:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtCellPhone" name="txtCellPhone" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="txtEmail">Email:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtEmail" name="txtEmail" />
+                        </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for ="txtProvince">Province:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="txtProvince" name="txtProvince" />
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="txtDirection">Direction:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtDirection" name="txtDirection" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="txtComment">Comment:</label>
+                        </td>
+                        <td>
+                            <textarea id="txtComment" name="txtComment" rows="6" cols="50"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <center><input id="button" type="submit" /></center>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </body>
+
+    </html>
