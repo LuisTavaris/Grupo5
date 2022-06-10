@@ -1,0 +1,266 @@
+--- CUADERNO SISTEMAS WEB---------------
+ tipos de sistemas operativo de red decada de los 90
+____Para servidor__
+|-Dec OSF (Unix)
+|-sunws --> solaris (unix)
+|-novell netware
+|-Windows N.T   
+|-Linux              Windows 3.1 ( Solo correia sobre DOS)
+
+¿ QUÉ NACE EN EL 95?
+Nace la web
+
+¿QUÉ ES UN GOPLER
+
+_____Servidores Web (httpd) --> Demonios (Programa residente en la memoria?
+|- apache
+|-apache tomcat
+|-IIS (Internet Information Sistem) 
+|-GlassFish
+|-Payara 
+
+¿QUÉ ES CGIs?
+Procesamiento de informacion 
+
+¿QUE ES CMS?
+
+httpd--> (CGIs) proceso de informacion, se escribia en c, perl, shell
+
+app muy diferentes a plicacione mobiles--> consultar
+
+looks
+
+Multiple page--> No se cambia de dominio solo de html
+cd ~ 
+
+Pagina Adactativa --> se adacta al tamaño de resolucion
+Pagina Progresiva --> se adacta 
+
+API  --> muestra informacion en formato json
+
+Donde aprender html ---> w3schools.com/html/
+
+________ARCHIVOS HTML___________
+GRAMATICA:
+<html>  o  <HTML>
+ 
+tags(etiquetas), atributos , texto 
+
+<pre></pre>  --> pone el formato en el que se escribe en el <body>
+<p></p> --> los pone en formato parrafo
+<br /> salto de linea
+
+QUERY_STRING --> viene despues del signo de interrogacion(?)  
+
+_______________________________________________________________________________________________________
+
+<html>
+  <head>
+      <title><center>_____</center></title>
+  </head>
+    <body>
+       <H1>
+       <H2>                                        <a href = "___.html">home</a>
+       <H3>
+        <table>
+        <td> ___ </td>
+        <tr> ___ </tr>
+        <th> ___ </th>
+    </body>
+</html>
+
+________________________________
+
+<table>
+   <tr>
+     <td> NAME </td>
+    <td> age </td>
+    <td> city </td> 
+
+Deber : usando solo html dibujar a la tabla con separacion de espacios, lineas, mas la cabecera
+, imagenes <imag> (4pGINAS)
+
+
+
+__________SERVER'S___________
+
+Programas que intrpretaban detras del servidor antes se llamaban Gis
+
+
+PHp    LAMP = Apache, MySQL, Php, Perl, Python, MariaDB
+       MAMP = 
+       WAMP
+
+JavaServerPage now JakartaSP(JSP)   glassFish
+                                    Apache Tomcat
+                                    Payara
+
+javaEnterpriceServer now JakartaEE (JEE)
+____________CLOUD_______
+
+Oracle ---> Company --> Oracle DB
+                        MySQL    
+
+
+
+Publica encripta y privada desencripta
+
+http puerto 80
+https puerto 443
+ssl genera claves publicas y privadas
+
+
+
+501-503 mal programacion backend
+
+404- No se encontro el archivo 
+
+200 Todo el proceso se ejecuta bien (No importa si la logica o la semantica de la funcion programada esten mal )
+
+300 Redirect ( le manda de una pagina a otra)
+TDD 
+
+EL PROYECTO DEBE CONTENER FRAMES PARA EL VIERNES (CONSULTA)
+FRAMES AÑO 95
+
+FRAMEWORD'S AÑO 2020
+
+Deploy ( levanta los puertos y servicios )
+
+ ___________________________________________________________________________________________
+|_____________________________CORRECCÍON DE LA PALABRA______________________________________|
+
+1. Default architecture of a Web Application
+
+ *
+
+2.-Software Methodology widely used for Web Applications Development
+
+ *
+
+3.-Select the client-side technology.
+
+ *JSP
+
+4.-Select the "only" server-side technology.
+
+ *node.js
+
+5.-Which of the following is not an HTML tag?
+
+ *<int>
+
+6.-Which of the following is an HTML5 tag?
+ 
+ *<article>
+
+7.-What is a good/modern tag to split a web page content?
+
+ *<div>
+
+8.-What is the language used to describe the presentation of a web page document?
+
+ *CSS
+
+9.-Which of the following is a semantic HTML tag?
+
+ *<audio>
+
+10.-The HTTP protocol runs over
+
+ *TCP
+
+11.-The HTTP protocol is implemented by
+
+ *web servers
+
+12.-Difference between the GET and POST HTTP methods
+
+ *POST will send the data in the body of the web page
+
+13.-What is the meaning of URL?
+
+ *Uniform resorce locator
+
+14.-Tags to create a table
+
+ *<table> <tr> <td>
+
+15.-Tags to create a form
+
+ *<form> <label> <input>
+
+16.-Organization that standardize HTML from the beginning
+
+ *W3C
+
+17.-First technology to create dynamic web applications
+
+*CGI
+
+18.-Data Format widely used between web applications and currently 
+    between any type of applications
+
+ *JSON
+
+19.-What is not a type of web application
+
+ *Human web Apps
+
+20.-What is not a type of web application
+
+ *Frames Apps
+
+21.-Difference between a single page app and a multiple page app
+
+ *The SPA can use AJAX
+
+22.-This type of web applications are different implementations 
+    of the same app, but it loads a different page according to the 
+    device based on its screen resolution
+
+ *Adaptive Web Applications
+
+23.-First markup language used to create mobile web pages
+
+ *WML 
+
+24.-When the page is processed in the back-end and the 
+    full HTML is sent to the user, we are talking about
+
+ *server side rendering
+
+25.-Web server that supports JSP by default
+
+ *Payara
+
+________________________________________________________________________________________
+|_______________________________________________________________________________________|
+
+WAMP --> (Windows - Apache - Maria BD - Phyton)
+
+A --> Web server apllication 
+
+DB Server                  Web Server               App Server
+                                                    Web Server
+ _______                    _______                 _______
+|       | 128 Gb RAM       |       |               |       |
+|       | 6 tb MD          |       |               |       |
+|       | 8 nucleos        |       |               |       |
+|       |                  |       |               |       |
+|_______|                  |_______|               |_______|
+MariaDB                    Apache                   Glassfish
+MongoDB
+
+
+
+
+default.html  <-->  Index.html ---> Version Actualizada
+                    Index.htm ---> Version Antigua
+ 
+                    .php  --->  Pagina Principal
+                    .jsp
+
+Payara --> levanta su servicio en el Puerto 8080 por defecto
+
+Apache --> www /index
