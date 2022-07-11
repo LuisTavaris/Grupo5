@@ -1,10 +1,9 @@
-body
-{
-   background-color: rgb(253, 228, 228) ;   
+body {
+	background-color: rgb(253, 228, 228);
 }
 
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;
@@ -14,58 +13,54 @@ body
 
 
 /* Menu principal*/
-nav ul 
-{
-  list-style: none;
-  text-align: center;
-  padding: 0px;
-  font-size: 20px;
+nav ul {
+	list-style: none;
+	text-align: center;
+	padding: 0px;
+	font-size: 20px;
 }
 
-nav ul li 
-{
+nav ul li {
 	display: inline-block;
 	padding: 10px;
 }
 
-ul li a
-{
+ul li a {
 	text-decoration: none;
-	color: rgb(13, 73, 70);	
-  
-} 
+	color: rgb(13, 73, 70);
+
+}
 
 
-.portada{
+.portada {
 	width: 100%;
 	height: auto;
 }
 
 
-header{
-  font-family: Helvetica;
-  width: 100%;
-  margin: 0 auto;
-  background-color: rgb(224, 138, 138);
-  box-shadow: 2px 2px 5px #999;
+header {
+	font-family: Helvetica;
+	width: 100%;
+	margin: 0 auto;
+	background-color: rgb(224, 138, 138);
+	box-shadow: 2px 2px 5px #999;
 }
 
-
-.enlaces{
+.enlaces {
 	background-color: #ea6b6b;
 }
 
-.enlaces ul{
+.enlaces ul {
 	list-style: none;
 	text-align: center;
 }
 
-.opciones > li{
+.opciones>li {
 	position: relative;
 	display: inline-block;
 }
 
-.opciones > li > a{
+.opciones>li>a {
 	display: block;
 	padding: 10px 20px;
 	color: #353535;
@@ -73,7 +68,7 @@ header{
 	text-decoration: none;
 }
 
-.opciones li a:hover{
+.opciones li a:hover {
 	color: #8adf8a;
 	transition: all .3s;
 }
@@ -82,7 +77,7 @@ header{
 
 /* ListaCat*/
 
-.ListaCat{
+.ListaCat {
 	position: absolute;
 	background: #333333;
 	width: 120%;
@@ -91,7 +86,7 @@ header{
 	transition: opacity 1.5s;
 }
 
-.ListaCat li a{
+.ListaCat li a {
 	display: block;
 	padding: 15px;
 	color: #fff;
@@ -99,32 +94,29 @@ header{
 	text-decoration: none;
 }
 
-.opciones li:hover .ListaCat{
+.opciones li:hover .ListaCat {
 	visibility: visible;
 	opacity: 1;
 }
 
-.ImgCentro{
+.ImgCentro {
+	text-align: center;
 	width: 1215px;
 	height: 350px;
-  }
-
-
+}
 
 .image-product {
 	width: 120px;
 	height: 150px;
-  }
+}
 
-  .table-office {
+.table-office {
 	text-align: center;
 	width: 80%;
 	margin: auto;
-  }
+}
 
-  table hr {
+table hr {
 	height: 1px;
 	width: 90%;
-  }
-
-  
+}
