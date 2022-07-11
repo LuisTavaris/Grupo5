@@ -1,3 +1,116 @@
+body
+{
+   background-color: rgb(253, 228, 228) ;   
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* Menu principal*/
+nav ul 
+{
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+  font-size: 20px;
+}
+
+nav ul li 
+{
+	display: inline-block;
+	padding: 10px;
+}
+
+ul li a
+{
+	text-decoration: none;
+	color: rgb(13, 73, 70);	
+  
+} 
+
+
+.portada{
+	width: 100%;
+	height: auto;
+}
+
+
+header{
+  font-family: Helvetica;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(224, 138, 138);
+  box-shadow: 2px 2px 5px #999;
+}
+
+
+.enlaces{
+	background-color: #ea6b6b;
+}
+
+.enlaces ul{
+	list-style: none;
+	text-align: center;
+}
+
+.opciones > li{
+	position: relative;
+	display: inline-block;
+}
+
+.opciones > li > a{
+	display: block;
+	padding: 10px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.opciones li a:hover{
+	color: #8adf8a;
+	transition: all .3s;
+}
+
+
+
+/* ListaCat*/
+
+.ListaCat{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.ListaCat li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.opciones li:hover .ListaCat{
+	visibility: visible;
+	opacity: 1;
+}
+
+.ImgCentro{
+	width: 1215px;
+	height: 350px;
+  }
+
+
+
 .image-product {
 	width: 120px;
 	height: 150px;
@@ -13,3 +126,5 @@
 	height: 1px;
 	width: 90%;
   }
+
+  
