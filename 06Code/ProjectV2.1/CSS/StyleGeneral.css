@@ -1,0 +1,15 @@
+.image-product {
+	width: 120px;
+	height: 150px;
+  }
+
+  .table-office {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+  }
+
+  table hr {
+	height: 1px;
+	width: 90%;
+  }
