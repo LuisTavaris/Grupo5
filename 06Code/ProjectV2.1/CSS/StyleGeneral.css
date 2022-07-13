@@ -120,3 +120,49 @@ table hr {
 	height: 1px;
 	width: 90%;
 }
+
+/*Form */
+
+.form1 {
+	width: 400px;
+	background: #ff3f5f;
+	padding: 30px;
+	margin: auto;
+	border: 2px solid #000000;
+	margin-top: 100px;
+	border-radius: 20px;
+	font-family: 'helvetica';
+	color: black;
+	box-shadow: 40px 20px 50px #0000;
+}
+.form1 h4{
+	font-size:22px;
+	margin-bottom: 20px
+}
+
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid #ffffff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.form1 .button{
+    width: 80%;
+    background: #000000;
+	border: 2px solid #ffffff;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    font-size: 16px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.button:hover{
+    opacity: 0.7;
+}
