@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+	<head> 
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/StyleGeneral.css" type="text/css">
+		<title> Crear Cuenta </title>
+	</head>
+
+	<body>
+		<header>
+			<nav class="enlaces">
+				<ul class="opciones">
+					<li><a class="logotipo" href="../index.html"><img src="../Imag/logoVictoria1.jpg" width="200px" height="65px" alt="Logo"></a></li>
+					<li><a href="../index.html"><img src="../Imag/Inicio.png" width="24px" height="20px"
+								alt="inicio">INICIO</a></li>
+					<li><a href="../Html/aboutUs.html"><img src="../Imag/Nosotros.png" width="25px" height="13px"
+								alt="somos">NOSOTROS</a></li>
+					<li><a href="#"><img src="../Imag/categoria.png" width="25px" height="30px"
+								alt="categoria">CATEGORIAS</a>
+						<ul class="ListaCat">
+							<li><a href="../Html/Flour.html">Harinas, granos y condimentos</a></li>
+							<li><a href="../Html/Beverages.html">Bebidas</a></li>
+							<li><a href="../Html/Fruits.html">Frutas</a></li>
+							<li><a href="../Html/Cleanning.html">Limpieza y hogar</a></li>
+						</ul>
+					</li>
+					<li><a href="Html/contactos.html"><img src="../Imag/ubicacion.png" width="20px" height="14px"
+								alt="contacto">CONTACTOS</a></li>
+					<li><a href="login.html"><img src="../Imag/cuenta.png" width="20px" height="17px"
+								alt="cuenta">INGRESAR</a></li>
+				</ul>
+	
+			</nav>
+		</header>
+	
+		<section class="form1">
+			<form>
+                <center><h4> Crear cuenta de Usuario </h4></center>
+                <p><fieldset class="f">
+                    <legend><b>Información personal</b></legend>
+                    <br/>
+			        <label>Apellidos: <input class="controls" type="text" name="second_name" id="second_name" 
+                        placeholder="Solorzano Briones"></label>
+                    <label>Nombres: <input class="controls" type="text" name="first_name" id="first_name" 
+                        placeholder="Deivy Steven"></label>
+                    <label>Fecha de Nacimiento: <input class="controls" type="date" name="date" id="date"></label>
+                    <label>Direccion Exacta: <input class="controls" type="text" name="address" id="address" 
+                        placeholder="Calle E0-0 y Calle"></label>
+                    Género:
+                    <label class="container1">Masculino<input type="radio" checked="checked" name="radio" id="male">
+                        <span class="checkradio"></span></label>
+                    <label class="container1">Femenino<input type="radio" checked="checked" name="radio" id="female">
+                        <span class="checkradio"></span></label>
+                </fieldset>
+                <br/>
+                <fieldset>
+                    <legend><b>Preferencias</b></legend>
+                    <p>
+                        <label class="container">Bebidas<input type="checkbox" checked="checked" name="Beverages" id="Beverages"> 
+                            <span class="checkmark"></span></label>
+                        <label class="container">Limpieza<input type="checkbox" checked="checked"name="Cleanning" id="Cleanning"> 
+                            <span class="checkmark"></span></label>
+                        <label class="container">Harinas<input type="checkbox" checked="checked"name="Flour" id="Flour"> 
+                            <span class="checkmark"></span></label>
+                        <label class="container">Frutas<input type="checkbox" checked="checked"name="Fruits" id="Fruits"> 
+                            <span class="checkmark"></span></label>
+                    </p>
+                </p></fieldset>
+                    <center><input class="button" type="submit" value="Registrar"></center>
+                    </form>
+		  
+		</section>
+
+	</form>
+	</body>
+	
+</html>
