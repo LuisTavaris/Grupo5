@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+	<head> 
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/StyleGeneral.css" type="text/css">
+		<title> Opciones </title>
+	</head>
+
+	<body>
+		<header>
+			<nav class="enlaces">
+				<ul class="opciones">
+					<li><a class="logotipo" href="../index.html"><img src="../Imag/logoVictoria1.jpg" width="200px" height="65px" alt="Logo"></a></li>
+					<li><a href="../index.html"><img src="../Imag/Inicio.png" width="24px" height="20px"
+								alt="inicio">INICIO</a></li>
+					<li><a href="../Html/aboutUs.html"><img src="../Imag/Nosotros.png" width="25px" height="13px"
+								alt="somos">NOSOTROS</a></li>
+					<li><a href="#"><img src="../Imag/categoria.png" width="25px" height="30px"
+								alt="categoria">CATEGORIAS</a>
+						<ul class="ListaCat">
+							<li><a href="../Html/Flour.html">Harinas, granos y condimentos</a></li>
+							<li><a href="../Html/Beverages.html">Bebidas</a></li>
+							<li><a href="../Html/Fruits.html">Frutas</a></li>
+							<li><a href="../Html/Cleanning.html">Limpieza y hogar</a></li>
+						</ul>
+					</li>
+					<li><a href="opinions.html"><img src="../Imag/comentario.png" width="24px" height="20px"
+                        alt="comentario">OPINIONES</a></li> 
+					<li><a href="login.html"><img src="../Imag/cuenta.png" width="20px" height="17px"
+								alt="cuenta">INGRESAR</a></li>          
+				</ul>
+	
+			</nav>
+		</header>
+	
+		<section class="opinions">
+			<form>
+                <center><h4> Cuentanos tu experiencia </h4></center>
+			        <label>Apellidos: <input class="controls" type="text" name="second_name" id="second_name" 
+                        placeholder="Solorzano Briones"></label>
+                    <label>Nombres: <input class="controls" type="text" name="first_name" id="first_name" 
+                        placeholder="Deivy Steven"></label>
+					<label>Email: <input class="controls" type="email" name="email" id="email" 
+						placeholder="micromercado@lavictoria.com"></label>
+					<br/>
+					<h4>Del 1 al 5 tomando el número 1 como la calificación más baja y 5 la más alta</h4>
+					<br/>
+					<table class="table">
+						<tr>
+							<th>¿Recomendarías nuestra página?</th>
+							<td><label class="container2">1<input type="radio" checked="checked" name="radio" id="1"><span class="checkradio"></span>
+							</td>
+							<td><label class="container2">2<input type="radio" checked="checked" name="radio" id="2"><span class="checkradio"></span></label>
+							</td>
+							<td><label class="container2">3<input type="radio" checked="checked" name="radio" id="3"><span class="checkradio"></span>
+							</td>
+							<td><label class="container2">4<input type="radio" checked="checked" name="radio" id="4"><span class="checkradio"></span></label>
+							</td>
+							<td><label class="container2">5<input type="radio" checked="checked" name="radio" id="5"><span class="checkradio"></span></label>
+							</td>
+						</tr>
+					
+						<tr>
+							<th>¿Qué seccion está mejor distribuida?</th>
+							<td><label class="container">Bebidas<input type="checkbox" checked="checked" name="Beverages" id="Beverages"> 
+								<span class="checkmark"></span></label></td>
+							<td><label class="container">Limpieza<input type="checkbox" checked="checked"name="Cleanning" id="Cleanning"> 
+								<span class="checkmark"></span></label></td>
+							<td><label class="container">Harinas<input type="checkbox" checked="checked"name="Flour" id="Flour"> 
+								<span class="checkmark"></span></label></td>
+							<td><label class="container">Frutas<input type="checkbox" checked="checked"name="Fruits" id="Fruits"> 
+								<span class="checkmark"></span></label></td>
+						</tr>
+					</table>
+
+					<label>Agrega tus sugerencias <textarea class="controls" name="suggestion" id="suggestion" cols="40" rows="4"></textarea>
+                    <center><input class="button" type="submit" value="Registrar"></center>
+
+					
+                    </form>
+		  
+		</section>
+
+	</form>
+	</body>
+	
+</html>

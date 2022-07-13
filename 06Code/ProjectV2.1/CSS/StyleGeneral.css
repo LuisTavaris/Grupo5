@@ -2,7 +2,6 @@ body {
 	background-color: rgb(253, 228, 228);
 }
 
-
 * {
 	margin: 0;
 	padding: 0;
@@ -291,4 +290,106 @@ table hr {
 	margin-top: 10px;
 	margin: auto;
 	padding: 20px;
+  }
+
+  /*Opinions*/
+
+.opinions {
+	width: 1000px;
+	background: #ff3f5f;
+	padding: 30px;
+	margin: auto;
+	border: 2px solid #000000;
+	margin-top: 100px;
+	border-radius: 20px;
+	font-family: 'helvetica';
+	color: black;
+	box-shadow: 40px 20px 50px #0000;
+}
+.opinions h4{
+	font-size:22px;
+	margin-bottom: 20px
+}
+
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid #ffffff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.opinions .button{
+    width: 80%;
+    background: #000000;
+	border: 2px solid #ffffff;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    font-size: 16px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.button:hover{
+    opacity: 0.7;
+}
+
+.container2 {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  .container2 input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+  }
+  
+  .checkradio {
+	position: absolute;
+	top: 7px;
+	left: 7px;
+	height: 15px;
+	width: 15px;
+	background-color: #eee;
+	border-radius: 50%;
+  }
+  
+  .container2:hover input ~ .checkradio {
+	background-color: #ccc;
+  }
+  
+  .container2 input:checked ~ .checkradio {
+	background-color: #2196F3;
+  }
+  
+  .checkradio:after {
+	content: "";
+	position: absolute;
+	display: none;
+  }
+  
+  .container2 input:checked ~ .checkradio:after {
+	display: block;
+  }
+  
+  .container2 .checkradio:after {
+	   top: 4px;
+	  left: 4px;
+	  width: 8px;
+	  height: 8px;
+	  border-radius: 50%;
+	  background: white;
   }
