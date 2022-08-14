@@ -46,7 +46,7 @@ header {
 }
 
 .enlaces {
-	background-color: #ea6b6b;
+	background-color: #ff4242;
 }
 
 .enlaces ul {
@@ -120,6 +120,21 @@ table hr {
 	width: 90%;
 }
 
+h1{
+	text-align: center;
+	color: red;
+	font-size: 40px;
+}
+
+.descripcion{
+	color: #2196F3;
+	font-size: 25px;
+}
+
+.precio{
+	color: #f22196;
+	font-size: 15px;
+}
 /*Form */
 
 .form1 {
