@@ -14,7 +14,7 @@ div.mainContent {
     margin: auto;
 }
 
-.mainContent h2:hover{
+.mainContent h1:hover{
 	background:#FBE90E;
 	opacity: 0.8;
 }
