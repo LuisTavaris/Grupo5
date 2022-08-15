@@ -141,7 +141,7 @@ h1{
 
 
  table.tableContent{
-	width: 00px;
+	width: 600px;
     text-align: center;
     margin: auto;
 	background-color: #FBE90E;
@@ -172,7 +172,7 @@ button.op1{
     margin: 10px;
     font-size: 16px;
 	border-radius: 20px;
-	cursor: pointer;
+	cursor:pointer;
 
 }
 .op1:hover{
@@ -231,11 +231,51 @@ div.Nosotros{
 }
 
 
-.Nosotros h2{
+.Nosotros h2:hover{
 	background:#FBE90E;
 	opacity: 0.8;
 }
+.Nosotros table{
+	background-color:#060606;
+	width:50%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 8px;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 25px #ED3A3A  ;
+}
+.Nosotros td{
+	color:white; 
+	width: 50%;
+}
 
+/*Categoria */
+.mainContent p img {
+    height: 440px;
+	
+}
+.mainContent img {
+    height: 440px;
+	
+}
+
+.mainContent button img {
+    height: 94px;
+
+}
+
+div.mainContent {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.mainContent h2:hover{
+	background:#FBE90E;
+	opacity: 0.8;
+}
 
 /*Form */
 
