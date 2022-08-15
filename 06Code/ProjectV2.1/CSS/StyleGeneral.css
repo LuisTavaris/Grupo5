@@ -124,6 +124,7 @@ h1{
 	text-align: center;
 	color: red;
 	font-size: 40px;
+	background-color: #feff84  ;
 }
 
 .descripcion{
@@ -132,7 +133,7 @@ h1{
 }
 
 .precio{
-	color: #f22196;
+	color: #96f221 ;
 	font-size: 15px;
 }
 
