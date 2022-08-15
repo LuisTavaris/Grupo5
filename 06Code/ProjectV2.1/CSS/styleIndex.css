@@ -1,0 +1,83 @@
+/* Slider */
+
+table.tableContent{
+	width: 600px;
+    text-align: center;
+    margin: auto;
+	background-color: #FBE90E;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 8px;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 25px #ED3A3A  ;
+	
+ }
+
+ tr td button a {
+	text-decoration: none;
+	color: #1a0101;
+}
+.tableContent a:hover{
+	color: #770b0b ;
+    text-decoration:solid;
+
+}
+button.op1{
+	background-color: #C40F0F; 
+	height:500px;
+	border: 2px solid #ffffff;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    font-size: 16px;
+	border-radius: 20px;
+	cursor:pointer;
+
+}
+.op1:hover{
+	background:#FBE90E;
+    opacity: 0.7;
+}
+div.slider {
+	width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.slider{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 500%;
+
+	animation: cambio 20s infinite alternate;
+}
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+.slider img {
+	width: 95%;
+
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	15% {margin-left: 0;}
+	
+	20% {margin-left: -100%;}
+	35% {margin-left: -100%;}
+	
+	40% {margin-left: -200%;}
+	55% {margin-left: -200%;}
+	
+	60% {margin-left: -300%;}
+	75% {margin-left: -300%;}
+
+	80% {margin-left: -400%;}
+	100% {margin-left: -400%;}
+}
