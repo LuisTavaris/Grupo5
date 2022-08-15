@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/StyleGeneral.css" type="text/css">
+    <script href="../Js/validatorPassword.js" type="text/javascript"></script>
     <title> Crear Cuenta </title>
 </head>
 
@@ -81,6 +82,18 @@
                     <label class="container">Frutas<input type="checkbox" checked="checked" name="Fruits" id="Fruits">
                         <span class="checkmark"></span></label>
                 </p>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend><b>Nueva Cuenta</b></legend>
+                <p>
+                    <label>Ingrese un Usuario: <input class="controls" type="text" name="usuario" id="usuario"
+                        placeholder="mercadoVictoria"></label>
+                    <label>Ingrese una nueva contraseña:</label> <input class="controls" type="password" name="password" id="password"
+                        placeholder="************" onBlur="validarPasswd()">
+                    <label>Confirme su contraseña contraseña: </label><input class="controls" type="password" name="password2" id="password2"
+                        placeholder="************" onBlur="validarPasswd()">
                 </p>
             </fieldset>
             <center><input class="button" type="submit" value="Registrar"></center>
