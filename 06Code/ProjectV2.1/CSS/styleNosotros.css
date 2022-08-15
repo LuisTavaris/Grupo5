@@ -1,0 +1,27 @@
+/*Nosotros*/
+div.Nosotros{
+	position: absolute;
+    text-align: center;
+    margin: auto;
+}
+
+
+.Nosotros h2:hover{
+	background:#FBE90E;
+	opacity: 0.8;
+}
+.Nosotros table{
+	background-color:#060606;
+	width:50%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 8px;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 25px #ED3A3A  ;
+}
+.Nosotros td{
+	color:white; 
+	width: 50%;
+}

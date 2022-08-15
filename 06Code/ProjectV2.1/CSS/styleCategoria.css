@@ -1,0 +1,20 @@
+/*Categoria */
+
+.mainContent img {
+    height: 340px;
+	
+}
+.mainContent button img {
+    height: 94px;
+	
+}
+div.mainContent {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.mainContent h2:hover{
+	background:#FBE90E;
+	opacity: 0.8;
+}
