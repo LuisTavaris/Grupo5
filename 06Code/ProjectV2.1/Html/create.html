@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/StyleGeneral.css" type="text/css">
-    <script href="../Js/validatorPassword.js" type="text/javascript"></script>
+    <script src="../Js/validator.js" type="text/javascript"></script>
     <title> Crear Cuenta </title>
 </head>
 
@@ -50,12 +50,12 @@
                 <legend><b>Información personal</b></legend>
                 <br />
                 <label>Apellidos: <input class="controls" type="text" name="second_name" id="second_name"
-                        placeholder="Solorzano Briones"></label>
+                        placeholder="Solorzano Briones" onchange="return  validateLastName()"></label>
                 <label>Nombres: <input class="controls" type="text" name="first_name" id="first_name"
-                        placeholder="Deivy Steven"></label>
+                        placeholder="Deivy Steven" onchange="return  validateName()"></label>
                 <label>Fecha de Nacimiento: <input class="controls" type="date" name="date" id="date"></label>
                 <label>Direccion Exacta: <input class="controls" type="text" name="address" id="address"
-                        placeholder="Calle E0-0 y Calle"></label>
+                        placeholder="Calle E0-0 y Calle" onchange="return validateAddres()"></label>
                 <label>Email: <input class="controls" type="email" name="email" id="email"
                         placeholder="micromercado@lavictoria.com"></label>
 
@@ -65,7 +65,7 @@
                 <label class="container1">Femenino<input type="radio" checked="checked" name="radio" id="female">
                     <span class="checkradio"></span></label>
                 <label>Celular: <input class="controls" type="text" name="cellphone" id="cellphone"
-                        placeholder="099999999999"></label>
+                        placeholder="099999999999" onchange="return  validateNumber()"></label>
             </fieldset>
             <br />
             <fieldset>
@@ -89,11 +89,11 @@
                 <legend><b>Nueva Cuenta</b></legend>
                 <p>
                     <label>Ingrese un Usuario: <input class="controls" type="text" name="usuario" id="usuario"
-                        placeholder="mercadoVictoria"></label>
+                        placeholder="mercadoVictoria" onchange="return validateUser()"></label>
                     <label>Ingrese una nueva contraseña:</label> <input class="controls" type="password" name="password" id="password"
-                        placeholder="************" onBlur="validarPasswd()">
+                        placeholder="************" onchange="return  validarPasswd()">
                     <label>Confirme su contraseña contraseña: </label><input class="controls" type="password" name="password2" id="password2"
-                        placeholder="************" onBlur="validarPasswd()">
+                        placeholder="************" onchange="return  validarPasswd()">
                 </p>
             </fieldset>
             <center><input class="button" type="submit" value="Registrar"></center>
